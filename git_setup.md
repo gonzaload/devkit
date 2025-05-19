@@ -74,7 +74,7 @@ pass init <gpg-id>
 #### Set Git to use correct Credential Storage
 
 ```
-git config --global credential.credentialStore pass 
+git config --global credential.credentialStore gpg 
 ```
 
 #### Headless/TTY-only sessions 
